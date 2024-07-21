@@ -37,7 +37,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktorVersion")
 
-    implementation("io.github.pdvrieze.xmlutil:serialization-jvm:0.86.3"){
+    implementation("io.github.pdvrieze.xmlutil:serialization-jvm:0.90.1"){
         exclude("io.github.pdvrieze.xmlutil", "core")
     }
 
